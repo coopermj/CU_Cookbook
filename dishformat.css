@@ -1,0 +1,69 @@
+/* This is the styling for each individual dish */
+
+body {
+  background-color: white;
+  font-family: "Tahoma";
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.column {
+      width: 125px;
+      margin: 5px;
+      display: inline-block;
+      border-color: white;
+  }
+.container {
+      margin:auto;
+      text-align: center;
+      background-color: D8D8D8;
+      padding: 15px;
+      font-weight: bold;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+
+.dishname {
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  background-color: D8D8D8;
+  padding: 20px;
+}
+.info {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-color: D8D8D8;
+  padding: 10px;
+}
+h3 {
+  background-color: 015287;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.ingredients {
+  line-height: 200%;
+}
+.seasoning {
+    line-height: 200%;
+}
+.directions {
+  line-height: 200%;
+}
+.return {
+  border-right: solid;
+  border-color: white;
+}
+.joke {
+  text-align: center;
+}

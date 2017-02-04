@@ -1,0 +1,62 @@
+/* Styling for the main menu */
+/* Cedarville Colors:
+    Blue: 015287
+    Yellow: fdb813 */
+
+@@font-face {
+  font-family: Sweet;
+  src: url(Sweets.ttf);
+}
+
+body {
+   background-image: url(images/cu.png);
+   background-repeat: no-repeat;
+   background-position: 50% 45%;
+   background-size: 25%;
+}
+.button {
+    border-style: solid;
+    background-color: 015287;
+    height: 75px;
+    width: 125px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    color: white;
+    font-family: "Tahoma";
+    border-radius: 15px;
+    border-color: white;
+}
+.column {
+    width: 125px;
+    margin: 15px;
+    display: inline-block;
+}
+.container {
+    margin:auto;
+    text-align: center;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.headerchucks {
+  font-size: 400%;
+  font-family: "Tahoma";
+}
+.headersg {
+  font-size: 250%;
+  font-family: "Tahoma";
+}
+.headerblock {
+  text-align: center;
+  background-color: D8D8D8;
+  padding: 20px;
+  margin-bottom: 15px;
+}
